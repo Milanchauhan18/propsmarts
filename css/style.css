@@ -1,0 +1,416 @@
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../font/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../font/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../font/Poppins-Light.ttf");
+}
+
+html {
+    font-size: 16px;
+}
+
+input:focus,
+select:focus,
+.form-control:focus,
+button:focus,
+.btn:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border-color: inherit;
+}
+
+/* img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+} */
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    text-transform: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #71a3c1;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.heading {
+    font-family: "Poppins-SemiBold";
+    font-size: 38px;
+   
+    color: rgba(9, 16, 35, 1);
+}
+
+.content {
+    color: rgba(9, 16, 35, 0.8);
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    background-color: #091023;
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.nav-link,
+.nav-link.active {
+    color: #ffffff !important;
+    margin-left: 48px;
+}
+
+.btn-login {
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+
+.btn-login:hover {
+    color: #ffffff;
+    background-color: #cf1f35;
+    border: #cf1f35 1px solid;
+}
+
+.login-menu {
+    display: none;
+}
+
+@media only screen and (max-width:426px) {
+    header {
+        background-position-x: left;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 30px !important;
+    }
+
+    .nav-link,
+    .nav-link.active {
+        margin-left: 0;
+    }
+
+    .frm-login {
+        display: none !important;
+    }
+
+    .login-menu {
+        display: block;
+    }
+
+    .login-menu a {
+        color: #cf1f35 !important;
+    }
+}
+
+/* hero */
+.hero {
+    background-image: url(../img/hero__img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 130px;
+    padding-bottom: 287px;
+}
+
+.hero h1 {
+    color: rgba(9, 16, 35, 1);
+    font-family: "Poppins-SemiBold";
+    font-size: 55px;
+}
+
+.hero_p {
+    margin-top: 24px;
+}
+
+/* hero end */
+
+/* service */
+.he_ctr
+{
+    text-align: center;
+}
+.services {
+    padding: 96px 0;
+}
+
+.card {
+    border-radius: 4px;
+}
+
+/* .div_h_p {
+    p   adding-top: 12px;
+
+} */
+.m_32
+{
+    margin-top: 32px;
+}
+.cb_h2 {
+
+    color: rgba(9, 16, 35, 1);
+    font-family: "Poppins-SemiBold";
+    font-size: 22px;
+}
+.item
+{
+    margin-left:5px;
+}
+.service_bdr p
+{
+    font-size: 14px;
+}
+.c_img { 
+    margin-left: 8px;
+}
+
+.s_Para {
+    color: rgba(9, 16, 35, 0.8);
+    font-family: "Poppins-Medium";
+    font-size: 16px;
+    margin-top: 6px;
+}
+.space-4
+{
+    margin-left: 4px;
+}
+.m_left
+{
+    margin-left: 2px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-family: "Poppins-Light";
+}
+.m_17
+{
+    margin-left: 17px;
+}
+.m_16
+{
+    margin-top: 16px;
+}
+.m_8
+{
+    margin-left: 8px;
+    font-size: 12p;
+}
+.s_count
+{
+    color: rgba(0, 0, 0, 1);
+    font-family:"Poppins-SemiBold";
+    font-size: 14px;
+}
+.service_bdr
+{
+        border: 1px solid #d8d2ee;
+        border-radius: 4px;
+        padding: 7px;
+}   
+/*  service end */
+
+/* info */
+.info
+{
+    padding-top: 85px;
+    padding-bottom: 84px;
+}
+
+.symbol
+{
+    width: 66px;
+    border: none;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-radius:50%;
+    background-color: rgba(206, 31, 55, 1);
+   color: rgba(255, 255, 255, 1);
+   font-size: 28px;
+}
+.info h3
+{
+    color: rgba(9, 16, 35, 1);
+    font-size: 28px;
+    font-family:"Poppins-SemiBold";
+    margin-left: 16px;
+}
+.m_48
+{
+    margin-top: 48px;
+}
+
+.info p
+{
+    color: rgba(9, 16, 35, 0.8);
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 16px;
+}
+/* info end */
+
+/* Feature */
+.Feature
+{
+    padding: 96px;
+}
+.Feature p
+{
+    color: rgba(9, 16, 35, 0.8);
+    font-size: 16px;
+    margin-top: 24px; 
+}
+.Feature h4
+{
+    color: rgba(9, 16, 35, 1);
+    font-size: 22px;
+    font-family:"Poppins-SemiBold";
+    margin-left: 16px;
+}
+.Feature p
+{
+    color: rgba(9, 16, 35, 0.8);
+    font-size:14px;
+    font-family: "Poppins-Light";
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.m_24
+{
+    margin-top:24px;
+}
+.f_bdr
+{
+    border: solid 1px rgba(225, 225, 225, 1);
+    border-radius: 4px;
+    padding: 16px;
+}
+/*  Feature end */ 
+
+/* Questions */
+
+.Questions
+{
+    padding: 96px;
+}
+.Questions p
+{   
+    color: rgba(9, 16, 35, 0.8);
+    font-size: 16px;    
+            margin-top: 24px;
+}
+.acco_p
+{
+        color: rgba(9, 16, 35, 1);
+        font-family:"Poppins-SemiBold";
+        font-size: 16px;
+
+}
+.m_44
+{
+    margin-top: 44px;
+}
+.Q_bdr
+{
+    border: none;
+}
+/* Questions end */
+
+/* Register */
+
+.Register
+{
+    padding:94px;
+}
+.Register p
+{
+    color: rgba(9, 16, 35, 0.8);
+    font-size: 16px;
+    font-family:"Poppins-Light";
+    margin-top: 16px    ;
+}
+.r_bdr
+{
+    border: solid 1px rgba(225, 225, 225, 1);
+    border-radius: 6px;
+    
+}
+.r_bdr::placeholder
+{
+    font-size: 14px;
+    color: rgba(80, 80, 80, 1);
+    padding: 13px 16px;
+}
+/* .se_op
+{
+    font-size: 14px;
+    color: rgba(80, 80, 80, 1);
+} */
+.r_btn
+{
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    background-color: rgba(206, 31, 55, 1);
+    border-radius: 4px;
+    margin-top: 14px;
+}
+
+/* footer */
+footer
+{
+    background-color: rgba(9, 16, 35, 1);
+}
+.pad_80
+{
+    padding: 80px 0;
+}
+.mrg_8
+{
+    margin-left: 8px;
+}
+.f_pera
+{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-top: 24px;
+    text-align: center ;
+    justify-content: center;
+}
