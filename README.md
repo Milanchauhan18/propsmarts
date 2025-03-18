@@ -6,7 +6,7 @@ mobile) using responsive techniques like media queries.
 Effective UI/UX Design: Implemented visually appealing elements and a user-friendly interface
 to enhance user experience.
 Optimized Layout: Used grid systems and flexbox to build a clean and structured layout.
-<h1> Layout</h1>
+<h2>Layout</h2>
 Responsive Design<br>
 Grid System (CSS Grid, Flexbox)<br>
 Page Structure (Header, Footer, Sidebar)<br>
