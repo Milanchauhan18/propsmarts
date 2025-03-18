@@ -10,17 +10,17 @@ Optimized Layout: Used grid systems and flexbox to build a clean and structured 
 Responsive Design<br>
 Grid System (CSS Grid, Flexbox)<br>
 Page Structure (Header, Footer, Sidebar)<br>
-Wireframing અને Mockups<br>
+Wireframing and Mockups<br>
 <h2>Typography</h2>
 Font Selection (Google Fonts, Custom Fonts)<br>
-Font Sizes અને Hierarchy<br>
-Line Height અને Letter Spacing<br>
-Readability અને Accessibility<br>
+Font Sizes and Hierarchy<br>
+Line Height and Letter Spacing<br>
+Readability and Accessibility<br>
 <h2>UI Components</h2>
 Navigation Bar (Menu)<br>
-Buttons અને Forms<br>
-Cards અને Modals<br>
-Sliders અને Carousels<br>
+Buttons and Forms<br>
+Cards and Modals<br>
+Sliders and Carousels<br>
 <h1>🔗Website Link</h1>
 visit:- https://milanchauhan18.github.io/propsmarts/
 <h1>💼 LinkedIn Profile</h1>
